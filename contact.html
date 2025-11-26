@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Support – IELTS MasterPrep</title>
+  <meta name="description"
+        content="Contact IELTS MasterPrep for help with your IELTS study plan, technical issues or general questions." />
+  <meta name="keywords"
+        content="IELTS help, IELTS contact, IELTS support" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER with active Contact -->
+  <header>
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-mark">IM</div>
+        <div>
+          <div style="font-size:0.9rem;">IELTS MasterPrep</div>
+          <div style="font-size:0.7rem;" class="muted">Full Preparation Guide</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="NAV_HOME">Home</a>
+        <a href="listening.html" class="NAV_LISTENING">Listening</a>
+        <a href="reading.html" class="NAV_READING">Reading</a>
+        <a href="writing-task-1.html" class="NAV_WT1">Writing 1</a>
+        <a href="writing-task-2.html" class="NAV_WT2">Writing 2</a>
+        <a href="speaking.html" class="NAV_SPEAKING">Speaking</a>
+        <a href="vocabulary.html" class="NAV_VOCAB">Vocabulary</a>
+        <a href="videos.html" class="NAV_VIDEOS">Videos</a>
+        <a href="exam-sim.html" class="NAV_EXAM">Mock Exam</a>
+        <a href="contact.html" class="NAV_CONTACT active">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <button class="toggle" id="themeToggle" title="Toggle light/dark mode">☾</button>
+        <a href="exam-sim.html" class="btn secondary">Exam Simulation</a>
+        <a href="contact.html" class="btn">Get Support</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    <main>
+      <div>
+        <section class="hero section">
+          <div class="section-kicker">Support</div>
+          <h1>Contact IELTS MasterPrep</h1>
+          <p class="lead">
+            Send your questions, suggestions or technical problems. We aim to reply as soon as possible.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="section-kicker">Form</span>
+              <span>Send a Message</span>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your full name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label for="country">Country / Region</label>
+              <input id="country" type="text" placeholder="e.g. South Korea, Bangladesh" />
+            </div>
+            <div>
+              <label for="topic">Topic</label>
+              <select id="topic">
+                <option>Study plan help</option>
+                <option>Technical issue</option>
+                <option>Content suggestion</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="full-width">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Write your question or problem here..."></textarea>
+            </div>
+            <div class="full-width">
+              <button type="submit" class="btn">Send Message (demo)</button>
+            </div>
+          </form>
+
+          <p class="muted" style="margin-top:0.5rem;">
+            Note: This is a demo contact form for your project. Connect it to a real email or database if you publish the site.
+          </p>
+        </section>
+      </div>
+
+      <aside class="side-panel">
+        <div class="card">
+          <h3>Other Ways to Get Help</h3>
+          <ul>
+            <li>Check FAQ (you can add a new page for this).</li>
+            <li>Ask your teacher or language partner to review your writing.</li>
+            <li>Use official IELTS websites for registration problems.</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> IELTS MasterPrep. Not an official IELTS website.
+        Always check official IELTS partners (British Council, IDP, Cambridge) for the latest rules.
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
